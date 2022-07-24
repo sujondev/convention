@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .navbar-brand {
+    font-weight: 700;
+    color: #3E3E3E;
+    font-size: 22px;
+}
+
+.container .row h1 {
+    color: #0A0826;
+    font-weight: 700;
+}
+
+.container .row p {
+    color: #6C6C6C;
+    line-height: 28px;
+}
+
+
+@media screen and (max-width:775px) {
+    .img-size {
+        height: 500px;
+        object-fit: cover;
+    }
+}
